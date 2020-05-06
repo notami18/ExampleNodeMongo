@@ -11,6 +11,7 @@ async function main() {
 
   console.log(await admin.serverStatus());
   console.log(await admin.listDatabases());
+
 }
 
 main();
